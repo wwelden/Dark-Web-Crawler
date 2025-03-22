@@ -8,8 +8,8 @@ First time setup
 
 ```bash
 # Install required system packages
-sudo apt update # I don't think you need this
-sudo apt install tor python3 python3-venv # I don't think you need this
+sudo apt update
+sudo apt install tor python3 python3-venv
 
 # Start Tor service
 sudo service tor start
@@ -20,7 +20,7 @@ source venv/bin/activate
 
 # Install required Python packages
 pip install -r requirements.txt
-pip install requests[socks] PySocks # I don't think you need this
+pip install requests[socks] PySocks
 
 # Configure environment
 cp .env.example .env
@@ -42,6 +42,22 @@ sudo service tor status
 - To deactivate the virtual environment when done: `deactivate`
 - The crawler includes a 2-second delay between requests to avoid overwhelming servers
 - By default, the crawler will only access the main page and log found links without following them
+
+### Safely Disconnecting from Tor
+When you're done using the crawler:
+1. Stop the crawler (Ctrl+C if it's running)
+2. Deactivate the virtual environment:
+```bash
+deactivate
+```
+3. Stop the Tor service:
+```bash
+sudo service tor stop
+```
+4. Verify Tor is stopped:
+```bash
+sudo service tor status
+```
 
 ### Troubleshooting
 If you encounter connection issues:
