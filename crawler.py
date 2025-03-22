@@ -28,15 +28,22 @@ class DarkWebCrawler:
         """Establish connection to Tor network"""
         try:
             # Verify Tor connection
+            logger.info("Attempting to connect to Tor network...")
+            logger.info("Using SOCKS proxy: socks5h://127.0.0.1:9050")
             response = self.session.get('https://check.torproject.org/api/ip')
+            logger.info(f"Response status code: {response.status_code}")
+            logger.info(f"Response content: {response.text}")
             if response.json()['IsTor']:
                 logger.info("Successfully connected to Tor network")
                 return True
             else:
-                logger.error("Failed to connect to Tor network")
+                logger.error("Failed to connect to Tor network - Not using Tor")
                 return False
+        except requests.exceptions.RequestException as e:
+            logger.error(f"Request error connecting to Tor: {str(e)}")
+            return False
         except Exception as e:
-            logger.error(f"Error connecting to Tor: {str(e)}")
+            logger.error(f"Unexpected error connecting to Tor: {str(e)}")
             return False
 
     def renew_tor_ip(self):
@@ -94,9 +101,10 @@ def main():
         logger.error("Failed to connect to Tor. Exiting...")
         sys.exit(1)
 
-    # Example .onion URL (replace with your target URL)
-    target_url = "http://example.onion"
+    # Real .onion URL (DuckDuckGo's onion service)
+    target_url = "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion"
 
+    logger.info("Starting to crawl the target URL...")
     # Start crawling
     crawler.crawl_onion(target_url)
 
