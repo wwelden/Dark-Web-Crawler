@@ -8,8 +8,8 @@ First time setup
 
 ```bash
 # Install required system packages
-sudo apt update
-sudo apt install tor python3 python3-venv
+sudo apt update # Might not be needed
+sudo apt install tor python3 python3-venv # Might not be needed
 
 # Start Tor service
 sudo service tor start
@@ -20,7 +20,7 @@ source venv/bin/activate
 
 # Install required Python packages
 pip install -r requirements.txt
-pip install requests[socks] PySocks
+pip install requests[socks] PySocks # Might not be needed
 
 # Configure environment
 cp .env.example .env
