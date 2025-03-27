@@ -34,6 +34,9 @@ sudo service tor restart
 
 # Verify Tor is running
 sudo service tor status
+
+# Run with
+python3 crawler.py
 ```
 
 ### Important Notes
