@@ -155,8 +155,8 @@ def main():
 
     # Target URL to crawl - using DuckDuckGo's onion service as an example
     # This is a legitimate and safe .onion site for testing
-    target_url = "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion"
-
+    # target_url = "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion"
+    target_url = "https://www.reddit.com/r/wallstreetbets/"
     logger.info("Starting to crawl the target URL...")
     # Start the crawling process
     crawler.crawl_onion(target_url)
