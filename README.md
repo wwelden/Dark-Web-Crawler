@@ -50,6 +50,10 @@ source venv/bin/activate
 
 # 3. Run the crawler:
 python3 crawler.py
+
+# 4. When finished run:
+sudo ./deactivate.sh & deactivate
+
 ```
 
 ### Important Notes
