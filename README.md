@@ -6,38 +6,57 @@ A Python-based crawler for exploring .onion sites on the Tor network.
 
 First time setup
 
+
 ```bash
 # Install required system packages
 sudo apt update # Might not be needed
 sudo apt install tor python3 python3-venv # Might not be needed
+```
 
+```bash
 # Start Tor service
 sudo service tor start
+```
 
+```bash
 # Create and activate virtual environment
 python3 -m venv venv
 source venv/bin/activate
+```
 
+```bash
 # Install required Python packages
 pip install -r requirements.txt
 pip install requests[socks] PySocks # Might not be needed
+```
 
+```bash
 # Configure environment
 cp .env.example .env
+```
 
+```bash
 # Configure Tor
 echo "ControlPort 9051" | sudo tee -a /etc/tor/torrc
 echo "CookieAuthentication 1" | sudo tee -a /etc/tor/torrc
+```
 
+```bash
 # Restart Tor to apply changes
 sudo service tor restart
+```
 
+```bash
 # Verify Tor is running
 sudo service tor status
+```
 
+```bash
 # Run with
 python3 crawler.py
 ```
+
+
 
 ## Bash set up
 
