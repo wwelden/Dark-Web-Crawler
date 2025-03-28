@@ -39,6 +39,19 @@ sudo service tor status
 python3 crawler.py
 ```
 
+## Bash set up
+
+```bash
+# 1. run bash script:
+sudo ./setup.sh
+
+# 2. Activate the virtual environment:
+source venv/bin/activate
+
+# 3. Run the crawler:
+python3 crawler.py
+```
+
 ### Important Notes
 - Always keep your virtual environment activated (you should see `(venv)` in your prompt)
 - If you close your terminal, you'll need to activate the virtual environment again with `source venv/bin/activate`
