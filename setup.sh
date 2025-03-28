@@ -24,9 +24,10 @@ print_status "Installing system packages..."
 apt update
 apt install -y tor python3 python3-venv
 
-# Start Tor service
-print_status "Starting Tor service..."
-systemctl start tor
+# Stop any existing Tor services
+print_status "Stopping existing Tor services..."
+systemctl stop tor
+systemctl stop tor@default
 
 # Create and activate virtual environment
 print_status "Setting up Python virtual environment..."
@@ -44,21 +45,45 @@ cp .env.example .env
 
 # Configure Tor
 print_status "Configuring Tor..."
-echo "SocksPort 9050" | tee -a /etc/tor/torrc
-echo "ControlPort 9051" | tee -a /etc/tor/torrc
-echo "CookieAuthentication 1" | tee -a /etc/tor/torrc
+# Backup existing torrc
+cp /etc/tor/torrc /etc/tor/torrc.backup
+
+# Create new torrc with proper permissions
+cat > /etc/tor/torrc << 'EOL'
+SocksPort 9050
+ControlPort 9051
+CookieAuthentication 1
+EOL
+
+# Set proper permissions
+chown debian-tor:debian-tor /etc/tor/torrc
+chmod 644 /etc/tor/torrc
+
+# Create Tor runtime directory with proper permissions
+mkdir -p /run/tor
+chown debian-tor:debian-tor /run/tor
+chmod 700 /run/tor
 
 # Restart Tor to apply changes
 print_status "Restarting Tor service..."
+systemctl daemon-reload
 systemctl restart tor
+
+# Start the default Tor instance
+print_status "Starting Tor instance..."
+systemctl start tor@default
+
+# Wait a moment for Tor to start
+sleep 5
 
 # Verify Tor is running
 print_status "Verifying Tor status..."
 if systemctl is-active --quiet tor@default; then
     print_success "Tor is running successfully"
 else
-    print_error "Tor is not running. Starting Tor instance..."
-    systemctl start tor@default
+    print_error "Tor failed to start. Checking logs..."
+    journalctl -xeu tor@default.service
+    exit 1
 fi
 
 # Check Tor ports
