@@ -44,17 +44,24 @@ python3 crawler.py
 ```bash
 # 1. run bash script:
 sudo ./setup.sh
+```
 
+```bash
 # 2. Activate the virtual environment:
 source venv/bin/activate
+```
 
+```bash
 # 3. Run the crawler:
 python3 crawler.py
+```
 
+```bash
 # 4. When finished run:
 sudo ./deactivate.sh & deactivate
+````
 
-```
+
 
 ### Important Notes
 - Always keep your virtual environment activated (you should see `(venv)` in your prompt)
