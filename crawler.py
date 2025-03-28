@@ -138,6 +138,26 @@ class DarkWebCrawler:
             # Log any errors that occur during crawling
             logger.error(f"Error crawling {url}: {str(e)}")
 
+def read_urls_from_file(filename):
+    """
+    Read URLs from a text file, one URL per line
+    Returns a list of URLs with whitespace removed
+    """
+    urls = []
+    try:
+        with open(filename, 'r') as file:
+            # Read lines and strip whitespace
+            urls = [line.strip() for line in file if line.strip()]
+            logger.info(f"Successfully read {len(urls)} URLs from {filename}")
+    except FileNotFoundError:
+        logger.error(f"Error: File '{filename}' not found")
+    except PermissionError:
+        logger.error(f"Error: Permission denied accessing '{filename}'")
+    except Exception as e:
+        logger.error(f"Error reading file: {str(e)}")
+
+    return urls
+
 def main():
     """
     Main function that initializes and runs the crawler
@@ -153,12 +173,18 @@ def main():
         logger.error("Failed to connect to Tor. Exiting...")
         sys.exit(1)
 
-    # Target URL to crawl - using DuckDuckGo's onion service as an example
-    # This is a legitimate and safe .onion site for testing
-    target_url = "https://duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion"
-    logger.info("Starting to crawl the target URL...")
-    # Start the crawling process
-    crawler.crawl_onion(target_url)
+    # Read URLs from file
+    urls = read_urls_from_file('urls.txt')
+    if not urls:
+        logger.error("No URLs found in urls.txt. Exiting...")
+        sys.exit(1)
+
+    # Crawl each URL
+    for url in urls:
+        logger.info(f"Processing URL: {url}")
+        crawler.crawl_onion(url)
+        # Add a delay between different URLs
+        time.sleep(5)
 
 if __name__ == "__main__":
     main()
