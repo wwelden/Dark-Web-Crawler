@@ -61,7 +61,7 @@ python3 crawler.py
 ## Bash set up
 
 ```bash
-# 1. run bash script:
+# 1. Run bash script:
 sudo ./setup.sh
 ```
 
