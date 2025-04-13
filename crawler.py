@@ -130,6 +130,13 @@ class DarkWebCrawler:
                 # Add delay between requests to be respectful to the server
                 # and avoid detection/blocking
                 time.sleep(2)
+
+                return {
+                    "url": url,
+                    "title": title,
+                    "raw_html": response.text,
+                    "links": links
+                }
             else:
                 # Log unsuccessful responses with their status code
                 logger.warning(f"Failed to access {url}. Status code: {response.status_code}")
