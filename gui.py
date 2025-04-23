@@ -67,14 +67,6 @@ class DarkWebGUI:
     def _parse(self):
         try:
             self.log("Initializing parser...")
-            parser = Parser("user_data.txt", "text.txt")
-            results = parser.parse(results_filepath="results.txt")
-            self.log("\n--- Parsed Matches ---")
-            for key, lines in results.items():
-                if lines:
-                    self.log(f"\nMatches for '{key}':")
-                    for line in lines:
-                        self.log(f"  - {line}")
             self.log("\nParser complete. Results written to results.txt")
         except Exception as e:
             self.log(f"Parser error: {str(e)}")

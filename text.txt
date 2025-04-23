@@ -583,7 +583,7 @@ We advance human rights and defend your privacy online through free software and
 
     <div class="col-12 d-flex justify-content-center">
       <div class="col-12 col-sm-8 px-0 mt-5 trademark-policy">
-        <p>Trademark, copyright notices, and rules for use by third parties can be found in our <a href="https://www.torproject.org/about/trademark">Trademark and Brand policy</a>.</p>
+        <p>Trademark, PIZZA copyright notices, and rules for use by third parties can be found in our <a href="https://www.torproject.org/about/trademark">Trademark and Brand policy</a>.</p>
 
       </div>
       <div class="col-sm-2 mt-5 d-none d-sm-block">
