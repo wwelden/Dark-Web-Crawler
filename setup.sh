@@ -22,7 +22,7 @@ fi
 # Install required system packages
 print_status "Installing system packages..."
 apt update
-apt install -y tor python3 python3-venv
+apt install -y tor python3 python3-venv python3-tk
 
 # Stop any existing Tor services
 print_status "Stopping existing Tor services..."
