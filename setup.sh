@@ -37,7 +37,7 @@ source venv/bin/activate
 # Install required Python packages
 print_status "Installing Python packages..."
 pip install -r requirements.txt
-pip install requests[socks] PySocks
+pip install requests[socks] PySocks cryptography
 
 # Configure environment
 print_status "Configuring environment..."
