@@ -164,3 +164,501 @@
 </html>
 
 
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>	Paste.ee - creds
+</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A free, easy to use Pastebin.">
+		<meta name="author" content="Paste.ee">
+
+			<meta property="og:site_name" content="Paste.ee" />
+	<meta property="og:title" content="View Paste 6bxaIzbL" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://paste.ee/p/6bxaIzbL" />
+	<meta property="og:image" content="https://paste.ee/img/icon.png" />
+	<meta property="og:description" content="Paste.ee - View Paste 6bxaIzbL" />
+
+		
+		<link media="all" type="text/css" rel="stylesheet" href="https://paste.ee/build/css/app-6c1ac51d.css">
+
+		
+		<!--[if lt IE 9]>
+		  <script src="https://paste.ee/js/html5shiv/html5shiv.min.js"></script>
+		  <script src="https://paste.ee/js/respond.js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//analytics.paste.ee/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//analytics.paste.ee/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="https://paste.ee">Paste.ee</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="https://paste.ee">Home</a></li>
+						<li><a href="https://paste.ee/about">About</a></li>
+						<li><a href="https://paste.ee/wiki">Wiki</a></li>
+						<li><a href="https://paste.ee/contact">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Not logged in <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://paste.ee/register"><span class="fa fa-user fa-fw"></span>&nbsp;Register</a></li>
+								<li class="divider"></li>
+								<li><a href="https://paste.ee/login"><span class="fa fa-sign-in fa-fw"></span>&nbsp;Login</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>		<div class="container">
+			
+							<div class="alert alert-info">
+					<button id="hide-banner" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					Surprise! We've been running on hardware provided by <a class="alert-link" href="https://buyvm.net">BuyVM</a> for a few months and wanted to show them a little appreciation.<br />
+					Running a paste site comes with unique challenges, ones that aren't always obvious and hard to control. As such, BuyVM offered us a home where we could worry less about the hosting side of things and focus on maintaining a clean and useful service! Go check them out and show them some love!
+				</div>
+			
+								<div class="row">
+		<noscript>
+			<div class="alert alert-danger">Paste.ee uses Javascript for highlighting and various other features. While the site will still function, you won't have any of the cool features we have.</div>
+		</noscript>
+		<div class="row">
+			<div class="col-sm-6 paste-info">
+								Description: creds<br />
+												Submitted on May 2, 2025 at 09:38 AM
+												<br />Expires on June 1, 2025 at 09:38 AM (4 weeks from now)
+							</div>
+		<br />
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<a id="download" href="https://paste.ee/d/6bxaIzbL" data-paste="6bxaIzbL"><i class="fa fa-download fa-fw"></i> Download</a>
+				- <a id="report" href="#" data-paste="6bxaIzbL"><span class="fa fa-ban fa-fw"></span> Report</a>
+			</div>
+		</div>
+					<div id="section0" class="row">
+	<div class="col-sm-12 section-container" data-sectionid="0" data-syntax="text" data-name="New Paste 1">
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>
+					<a id="s0" href="#section0" class="section-title">New Paste 1</a> (Text)
+				</h3>
+			</div>
+			<div class="col-sm-4 text-right-sm">
+				<h3>
+					<a href="#" class="copy-button"><i class="fa fa-clipboard fa-fw"></i></a>
+					<a class="download" href="https://paste.ee/d/6bxaIzbL/0" data-paste="6bxaIzbL"><i class="fa fa-download fa-fw"></i></a>
+					<a class="raw" href="https://paste.ee/r/6bxaIzbL/0" data-paste="6bxaIzbL"><i class="fa fa-file-text fa-fw"></i></a>
+					<a class="embed" href="https://paste.ee/e/6bxaIzbL/0"><i class="fa fa-plug fa-fw"></i></a>
+				</h3>
+			</div>
+		</div>
+		<div class="section-content">
+			<div class="line-numbers">
+				<a href="#" id="s0l1">1</a>
+			</div>
+			<div id="section-content-25857911" data-encrypted="true">
+                <pre class="editor no-highlight"><code>U2FsdGVkX1/Z1eoQ1JuboS+4Fmla+GxJKB/l4sFHzUWcaJNybmZfqfN6JdY1ryGk</code></pre>
+			</div>
+		</div>
+	</div>
+</div>			</div>
+<script type="text/javascript">window.workerPath = '/build/js/worker-af63c6d7.js';</script>
+						<hr>
+			<footer class="footer">
+				<div class="row">
+					<div class="col-sm-4 text-center-xs text-left-sm">
+						&copy; 2025 Paste.ee
+					</div>
+					<div class="col-sm-4 text-center-xs">
+					</div>
+					<div class="col-sm-4 text-center-xs text-right-sm">
+						<a href="#">Back to top</a> - <a href="https://paste.ee/wiki/AUP">AUP</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-lg-8 col-lg-offset-2" style="margin-top: 10px; margin-bottom: 10px;">
+						<a href="https://buyvm.net">
+							<img class="img-responsive center-block" src="https://paste.ee/img/buyvm.png" alt="Powered by BuyVM" />
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div> <!-- /container -->
+
+		<script src="https://paste.ee/build/js/app-40861000.js"></script>
+
+		
+					<script type="text/javascript">
+				$(document).ready(function() {
+					$('#hide-banner').click(function(e) {
+						var date = new Date();
+						date.setTime(date.getTime() + (30*24*60*60*1000));
+						document.cookie = "hide_affiliate_banner=true; expires=" + date.toUTCString() + "; path=/";
+					});
+				});
+			</script>
+			</body>
+</html>
+
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>	Paste.ee - creds
+</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A free, easy to use Pastebin.">
+		<meta name="author" content="Paste.ee">
+
+			<meta property="og:site_name" content="Paste.ee" />
+	<meta property="og:title" content="View Paste 6bxaIzbL" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://paste.ee/p/6bxaIzbL" />
+	<meta property="og:image" content="https://paste.ee/img/icon.png" />
+	<meta property="og:description" content="Paste.ee - View Paste 6bxaIzbL" />
+
+		
+		<link media="all" type="text/css" rel="stylesheet" href="https://paste.ee/build/css/app-6c1ac51d.css">
+
+		
+		<!--[if lt IE 9]>
+		  <script src="https://paste.ee/js/html5shiv/html5shiv.min.js"></script>
+		  <script src="https://paste.ee/js/respond.js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//analytics.paste.ee/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//analytics.paste.ee/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="https://paste.ee">Paste.ee</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="https://paste.ee">Home</a></li>
+						<li><a href="https://paste.ee/about">About</a></li>
+						<li><a href="https://paste.ee/wiki">Wiki</a></li>
+						<li><a href="https://paste.ee/contact">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Not logged in <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://paste.ee/register"><span class="fa fa-user fa-fw"></span>&nbsp;Register</a></li>
+								<li class="divider"></li>
+								<li><a href="https://paste.ee/login"><span class="fa fa-sign-in fa-fw"></span>&nbsp;Login</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>		<div class="container">
+			
+							<div class="alert alert-info">
+					<button id="hide-banner" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					Surprise! We've been running on hardware provided by <a class="alert-link" href="https://buyvm.net">BuyVM</a> for a few months and wanted to show them a little appreciation.<br />
+					Running a paste site comes with unique challenges, ones that aren't always obvious and hard to control. As such, BuyVM offered us a home where we could worry less about the hosting side of things and focus on maintaining a clean and useful service! Go check them out and show them some love!
+				</div>
+			
+								<div class="row">
+		<noscript>
+			<div class="alert alert-danger">Paste.ee uses Javascript for highlighting and various other features. While the site will still function, you won't have any of the cool features we have.</div>
+		</noscript>
+		<div class="row">
+			<div class="col-sm-6 paste-info">
+								Description: creds<br />
+												Submitted on May 2, 2025 at 09:38 AM
+												<br />Expires on June 1, 2025 at 09:38 AM (4 weeks from now)
+							</div>
+		<br />
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<a id="download" href="https://paste.ee/d/6bxaIzbL" data-paste="6bxaIzbL"><i class="fa fa-download fa-fw"></i> Download</a>
+				- <a id="report" href="#" data-paste="6bxaIzbL"><span class="fa fa-ban fa-fw"></span> Report</a>
+			</div>
+		</div>
+					<div id="section0" class="row">
+	<div class="col-sm-12 section-container" data-sectionid="0" data-syntax="text" data-name="New Paste 1">
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>
+					<a id="s0" href="#section0" class="section-title">New Paste 1</a> (Text)
+				</h3>
+			</div>
+			<div class="col-sm-4 text-right-sm">
+				<h3>
+					<a href="#" class="copy-button"><i class="fa fa-clipboard fa-fw"></i></a>
+					<a class="download" href="https://paste.ee/d/6bxaIzbL/0" data-paste="6bxaIzbL"><i class="fa fa-download fa-fw"></i></a>
+					<a class="raw" href="https://paste.ee/r/6bxaIzbL/0" data-paste="6bxaIzbL"><i class="fa fa-file-text fa-fw"></i></a>
+					<a class="embed" href="https://paste.ee/e/6bxaIzbL/0"><i class="fa fa-plug fa-fw"></i></a>
+				</h3>
+			</div>
+		</div>
+		<div class="section-content">
+			<div class="line-numbers">
+				<a href="#" id="s0l1">1</a>
+			</div>
+			<div id="section-content-25857911" data-encrypted="true">
+                <pre class="editor no-highlight"><code>U2FsdGVkX1/Z1eoQ1JuboS+4Fmla+GxJKB/l4sFHzUWcaJNybmZfqfN6JdY1ryGk</code></pre>
+			</div>
+		</div>
+	</div>
+</div>			</div>
+<script type="text/javascript">window.workerPath = '/build/js/worker-af63c6d7.js';</script>
+						<hr>
+			<footer class="footer">
+				<div class="row">
+					<div class="col-sm-4 text-center-xs text-left-sm">
+						&copy; 2025 Paste.ee
+					</div>
+					<div class="col-sm-4 text-center-xs">
+					</div>
+					<div class="col-sm-4 text-center-xs text-right-sm">
+						<a href="#">Back to top</a> - <a href="https://paste.ee/wiki/AUP">AUP</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-lg-8 col-lg-offset-2" style="margin-top: 10px; margin-bottom: 10px;">
+						<a href="https://buyvm.net">
+							<img class="img-responsive center-block" src="https://paste.ee/img/buyvm.png" alt="Powered by BuyVM" />
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div> <!-- /container -->
+
+		<script src="https://paste.ee/build/js/app-40861000.js"></script>
+
+		
+					<script type="text/javascript">
+				$(document).ready(function() {
+					$('#hide-banner').click(function(e) {
+						var date = new Date();
+						date.setTime(date.getTime() + (30*24*60*60*1000));
+						document.cookie = "hide_affiliate_banner=true; expires=" + date.toUTCString() + "; path=/";
+					});
+				});
+			</script>
+			</body>
+</html>
+
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>	Paste.ee - creds
+</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="A free, easy to use Pastebin.">
+		<meta name="author" content="Paste.ee">
+
+			<meta property="og:site_name" content="Paste.ee" />
+	<meta property="og:title" content="View Paste 6bxaIzbL" />
+	<meta property="og:type" content="website" />
+	<meta property="og:url" content="https://paste.ee/p/6bxaIzbL" />
+	<meta property="og:image" content="https://paste.ee/img/icon.png" />
+	<meta property="og:description" content="Paste.ee - View Paste 6bxaIzbL" />
+
+		
+		<link media="all" type="text/css" rel="stylesheet" href="https://paste.ee/build/css/app-6c1ac51d.css">
+
+		
+		<!--[if lt IE 9]>
+		  <script src="https://paste.ee/js/html5shiv/html5shiv.min.js"></script>
+		  <script src="https://paste.ee/js/respond.js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- Matomo -->
+<script type="text/javascript">
+    var _paq = window._paq || [];
+    /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+        _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="//analytics.paste.ee/";
+        _paq.push(['setTrackerUrl', u+'matomo.php']);
+        _paq.push(['setSiteId', '1']);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+    })();
+</script>
+<noscript><p><img src="//analytics.paste.ee/matomo.php?idsite=1&amp;rec=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Matomo Code -->
+	</head>
+	<body>
+		<div class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="https://paste.ee">Paste.ee</a>
+				</div>
+				<div class="navbar-collapse collapse">
+					<ul class="nav navbar-nav">
+						<li><a href="https://paste.ee">Home</a></li>
+						<li><a href="https://paste.ee/about">About</a></li>
+						<li><a href="https://paste.ee/wiki">Wiki</a></li>
+						<li><a href="https://paste.ee/contact">Contact</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Not logged in <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="https://paste.ee/register"><span class="fa fa-user fa-fw"></span>&nbsp;Register</a></li>
+								<li class="divider"></li>
+								<li><a href="https://paste.ee/login"><span class="fa fa-sign-in fa-fw"></span>&nbsp;Login</a></li>
+							</ul>
+						</li>
+					</ul>
+				</div><!--/.nav-collapse -->
+			</div>
+		</div>		<div class="container">
+			
+							<div class="alert alert-info">
+					<button id="hide-banner" type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+					Surprise! We've been running on hardware provided by <a class="alert-link" href="https://buyvm.net">BuyVM</a> for a few months and wanted to show them a little appreciation.<br />
+					Running a paste site comes with unique challenges, ones that aren't always obvious and hard to control. As such, BuyVM offered us a home where we could worry less about the hosting side of things and focus on maintaining a clean and useful service! Go check them out and show them some love!
+				</div>
+			
+								<div class="row">
+		<noscript>
+			<div class="alert alert-danger">Paste.ee uses Javascript for highlighting and various other features. While the site will still function, you won't have any of the cool features we have.</div>
+		</noscript>
+		<div class="row">
+			<div class="col-sm-6 paste-info">
+								Description: creds<br />
+												Submitted on May 2, 2025 at 09:38 AM
+												<br />Expires on June 1, 2025 at 09:38 AM (4 weeks from now)
+							</div>
+		<br />
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<a id="download" href="https://paste.ee/d/6bxaIzbL" data-paste="6bxaIzbL"><i class="fa fa-download fa-fw"></i> Download</a>
+				- <a id="report" href="#" data-paste="6bxaIzbL"><span class="fa fa-ban fa-fw"></span> Report</a>
+			</div>
+		</div>
+					<div id="section0" class="row">
+	<div class="col-sm-12 section-container" data-sectionid="0" data-syntax="text" data-name="New Paste 1">
+		<div class="row">
+			<div class="col-sm-8">
+				<h3>
+					<a id="s0" href="#section0" class="section-title">New Paste 1</a> (Text)
+				</h3>
+			</div>
+			<div class="col-sm-4 text-right-sm">
+				<h3>
+					<a href="#" class="copy-button"><i class="fa fa-clipboard fa-fw"></i></a>
+					<a class="download" href="https://paste.ee/d/6bxaIzbL/0" data-paste="6bxaIzbL"><i class="fa fa-download fa-fw"></i></a>
+					<a class="raw" href="https://paste.ee/r/6bxaIzbL/0" data-paste="6bxaIzbL"><i class="fa fa-file-text fa-fw"></i></a>
+					<a class="embed" href="https://paste.ee/e/6bxaIzbL/0"><i class="fa fa-plug fa-fw"></i></a>
+				</h3>
+			</div>
+		</div>
+		<div class="section-content">
+			<div class="line-numbers">
+				<a href="#" id="s0l1">1</a>
+			</div>
+			<div id="section-content-25857911" data-encrypted="true">
+                <pre class="editor no-highlight"><code>U2FsdGVkX1/Z1eoQ1JuboS+4Fmla+GxJKB/l4sFHzUWcaJNybmZfqfN6JdY1ryGk</code></pre>
+			</div>
+		</div>
+	</div>
+</div>			</div>
+<script type="text/javascript">window.workerPath = '/build/js/worker-af63c6d7.js';</script>
+						<hr>
+			<footer class="footer">
+				<div class="row">
+					<div class="col-sm-4 text-center-xs text-left-sm">
+						&copy; 2025 Paste.ee
+					</div>
+					<div class="col-sm-4 text-center-xs">
+					</div>
+					<div class="col-sm-4 text-center-xs text-right-sm">
+						<a href="#">Back to top</a> - <a href="https://paste.ee/wiki/AUP">AUP</a>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12 col-lg-8 col-lg-offset-2" style="margin-top: 10px; margin-bottom: 10px;">
+						<a href="https://buyvm.net">
+							<img class="img-responsive center-block" src="https://paste.ee/img/buyvm.png" alt="Powered by BuyVM" />
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div> <!-- /container -->
+
+		<script src="https://paste.ee/build/js/app-40861000.js"></script>
+
+		
+					<script type="text/javascript">
+				$(document).ready(function() {
+					$('#hide-banner').click(function(e) {
+						var date = new Date();
+						date.setTime(date.getTime() + (30*24*60*60*1000));
+						document.cookie = "hide_affiliate_banner=true; expires=" + date.toUTCString() + "; path=/";
+					});
+				});
+			</script>
+			</body>
+</html>
+
+
