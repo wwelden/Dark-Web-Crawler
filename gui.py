@@ -88,7 +88,8 @@ class DarkWebGUI:
             ('credit_card', 'Credit Card Number'),
             ('bank_account', 'Bank Account Number'),
             ('passport', 'Passport Number'),
-            ('drivers_license', 'Driver\'s License Number')
+            ('drivers_license', 'Driver\'s License Number'),
+            ('keyword', 'Keyword')
         ]
 
         for i, (field_name, label) in enumerate(field_configs):
@@ -242,7 +243,7 @@ class DarkWebGUI:
             # Convert values to list and clean them
             user_data_list = [v.strip() for v in sensitive_data.values() if v.strip()]
 
-            parser = Parser(text_filepath='text.txt', user_data_filepath='user_data.txt')
+            parser = Parser(text_filepath='text.txt', user_data=user_data_list)
             parser.parse(results_filepath='results.txt')
 
             self.log("Parser complete. Results written to results.txt")
@@ -254,3 +255,4 @@ if __name__ == "__main__":
     root = tk.Tk()
     gui = DarkWebGUI(root)
     root.mainloop()
+

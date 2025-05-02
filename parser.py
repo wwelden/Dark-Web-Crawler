@@ -8,9 +8,10 @@ class Parser:
     the user data is present in the text file.
     """
 
-    def __init__(self, user_data_filepath, text_filepath):
+    def __init__(self, text_filepath, user_data, user_data_filepath=''):
         self.user_data_filepath = user_data_filepath
         self.text_filepath = text_filepath
+        self.user_data = user_data
 
 
     def load_user_data(self):
@@ -51,9 +52,14 @@ class Parser:
         if self.user_data_filepath is None or self.text_filepath is None:
             raise ValueError("File paths cannot be None")
 
-        # Load user data
-        print("Loading user data...")
-        user_data = self.load_user_data()
+
+        if not self.user_data:
+            # Load user data
+            print("Loading user data...")
+            user_data = self.load_user_data()
+        else:
+            user_data = self.user_data
+
 
         start = time.time()
 
@@ -105,16 +111,17 @@ class Parser:
         return results
 
 
-def main():
-    """
-    Main function to run the parser.
-    """
-    # Initialize the parser with file paths
-    parser = Parser('user_data.txt', 'text.txt')
+# def main():
+#     """
+#     Main function to run the parser.
+#     """
+#     # Initialize the parser with file paths
+#     parser = Parser('user_data.txt', 'text.txt')
 
-    # Parse the text file and write results to a file
-    parser.parse(results_filepath='results.txt')
+#     # Parse the text file and write results to a file
+#     parser.parse(results_filepath='results.txt')
 
 
-if __name__ == "__main__":
-    main()
+# if __name__ == "__main__":
+#     main()
+
