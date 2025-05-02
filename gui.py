@@ -229,12 +229,26 @@ class DarkWebGUI:
         thread = Thread(target=self._parse)
         thread.start()
 
-    def _parse(self):
-        try:
-            self.log("Initializing parser...")
-            self.log("\nParser complete. Results written to results.txt")
-        except Exception as e:
-            self.log(f"Parser error: {str(e)}")
+def _parse(self):
+    try:
+        self.log("Initializing parser...")
+
+        # Load decrypted user data from the encrypted file
+        with open('user_data/sensitive_info.enc', 'rb') as f:
+            encrypted_data = f.read()
+        decrypted_data = self.fernet.decrypt(encrypted_data)
+        sensitive_data = json.loads(decrypted_data.decode())
+
+        # Convert values to list and clean them
+        user_data_list = [v.strip() for v in sensitive_data.values() if v.strip()]
+
+        parser = Parser(text_filepath='text.txt', user_data=user_data_list)
+        parser.parse(results_filepath='results.txt')
+
+        self.log("Parser complete. Results written to results.txt")
+    except Exception as e:
+        self.log(f"Parser error: {str(e)}")
+
 
 if __name__ == "__main__":
     root = tk.Tk()
